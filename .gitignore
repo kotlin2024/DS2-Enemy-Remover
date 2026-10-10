@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+release/
+*.spec
+*verification*.json
+*smoke*.json
+diagnostic.json
+settings.json
+settings.tmp
+preview-*.png
+tmp*/

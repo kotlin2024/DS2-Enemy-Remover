@@ -1,0 +1,1492 @@
+{
+  "100": {
+    "name": "고블린",
+    "params": [
+      100000,
+      100008,
+      100009,
+      100010,
+      100020
+    ],
+    "variants": {
+      "100000": "GOBLIN (UNARMED)",
+      "100008": "BLACK PHANTOM GOBLIN (UNARMED)",
+      "100009": "BLACK PHANTOM GOBLIN (UNARMED)",
+      "100010": "GOBLIN (BONE CLUB)",
+      "100020": "GOBLIN (UNARMED)"
+    }
+  },
+  "101": {
+    "name": "코볼드",
+    "params": [
+      101000,
+      101001
+    ],
+    "variants": {
+      "101000": "KOBOLD",
+      "101001": "KOBOLD (SMOKEY)"
+    }
+  },
+  "102": {
+    "name": "망자 병사",
+    "params": [
+      102000,
+      102010,
+      102011,
+      102020,
+      102030,
+      102040,
+      102100,
+      102110,
+      102140
+    ],
+    "variants": {
+      "102000": "HOLLOW SOLDIER (SPEAR)",
+      "102010": "HOLLOW SOLDIER (GREATSWORD)",
+      "102011": "BLACK PHANTOM HOLLOW SOLDIER (GREATSWORD)",
+      "102020": "HOLLOW SOLDIER (HALBERD)",
+      "102030": "HOLLOW SOLDIER (SWORD AND SHIELD)",
+      "102040": "HOLLOW SOLDIER (BOW)",
+      "102100": "ROYAL SOLDIER (SPEAR)",
+      "102110": "ROYAL SOLDIER (GREATSWORD)",
+      "102140": "ROYAL SOLDIER (BOW)"
+    }
+  },
+  "103": {
+    "name": "망자 보병",
+    "params": [
+      103000,
+      103010,
+      103020,
+      103022,
+      103030,
+      103032,
+      103040,
+      103051,
+      103111,
+      103121,
+      103131
+    ],
+    "variants": {
+      "103000": "HOLLOW INFANTRY (UNARMED)",
+      "103010": "HOLLOW INFANTRY (DAGGER)",
+      "103020": "HOLLOW INFANTRY (SWORD AND SHIELD)",
+      "103022": "HOLLOW INFANTRY (SWORD AND SHIELD)",
+      "103030": "HOLLOW INFANTRY (AXE)",
+      "103032": "HOLLOW INFANTRY (AXE)",
+      "103040": "HOLLOW INFANTRY (BOW)",
+      "103051": "HOLLOW INFANTRY (BOW)",
+      "103111": "ROYAL INFANTRY (SWORD AND SHIELD)",
+      "103121": "ROYAL INFANTRY (AXE)",
+      "103131": "ROYAL INFANTRY (BOW)"
+    }
+  },
+  "105": {
+    "name": "아마나 사제",
+    "params": [
+      105000,
+      105010
+    ],
+    "variants": {
+      "105000": "AMANA HEALER",
+      "105010": "AMANA CASTER"
+    }
+  },
+  "106": {
+    "name": "사제",
+    "params": [
+      106001,
+      106009,
+      106021,
+      106200
+    ],
+    "variants": {
+      "106001": "WHITE PRIEST",
+      "106009": "BLACK PHANTOM WHITE PRIEST",
+      "106021": "WHITE PRIEST",
+      "106200": "PRIESTESS"
+    }
+  },
+  "107": {
+    "name": "거미 망자",
+    "params": [
+      107000,
+      107001
+    ],
+    "variants": {
+      "107000": "SPIDER HOLLOW",
+      "107001": "SPIDER HOLLOW"
+    }
+  },
+  "108": {
+    "name": "도적",
+    "params": [
+      108000,
+      108010,
+      108020
+    ],
+    "variants": {
+      "108000": "ROGUE (DUAL SHORTSWORDS)",
+      "108010": "ROGUE (CLUB)",
+      "108020": "ROGUE (BOW)"
+    }
+  },
+  "113": {
+    "name": "바랑기안",
+    "params": [
+      113000,
+      113010,
+      113020
+    ],
+    "variants": {
+      "113000": "VARANGIAN (SWORD AND SHIELD)",
+      "113010": "VARANGIAN (DUAL SWORDS)",
+      "113020": "VARANGIAN (BOW)"
+    }
+  },
+  "115": {
+    "name": "망자",
+    "params": [
+      115000,
+      115006,
+      115014,
+      115015
+    ],
+    "variants": {
+      "115000": "IMPORTED HOLLOW (UNARMED)",
+      "115006": "IMPORTED HOLLOW (UNARMED)",
+      "115014": "IMPORTED HOLLOW (DAGGER)",
+      "115015": "IMPORTED HOLLOW (DAGGER)"
+    }
+  },
+  "117": {
+    "name": "돌 병사",
+    "params": [
+      117000,
+      117010
+    ],
+    "variants": {
+      "117000": "STONE SOLDIER (SPEAR AND SHIELD)",
+      "117010": "STONE SOLDIER (SPEAR)"
+    }
+  },
+  "118": {
+    "name": "망자 마술사",
+    "params": [
+      118000,
+      118001,
+      118201
+    ],
+    "variants": {
+      "118000": "BLACK HOLLOW MAGE",
+      "118001": "BLACK HOLLOW MAGE",
+      "118201": "WHITE HOLLOW MAGE"
+    }
+  },
+  "121": {
+    "name": "후드 거인",
+    "params": [
+      121000,
+      121001,
+      121010,
+      121020,
+      121030
+    ],
+    "variants": {
+      "121000": "HOODED GIANT (UNARMED)",
+      "121001": "HOODED GIANT (UNARMED)",
+      "121010": "HOODED GIANT (CLUB)",
+      "121020": "HOODED GIANT (POISON)",
+      "121030": "HOODED GIANT (MAGE)"
+    }
+  },
+  "123": {
+    "name": "그림자",
+    "params": [
+      123002,
+      123010,
+      123022
+    ],
+    "variants": {
+      "123002": "SUSPICIOUS SHADOW (SILVER)",
+      "123010": "SUSPICIOUS SHADOW (GOLD WITH RAPIER)",
+      "123022": "SUSPICIOUS SHADOW (SILVER)"
+    }
+  },
+  "124": {
+    "name": "꼭두각시",
+    "params": [
+      124000,
+      124010,
+      124020,
+      124030,
+      124040,
+      124050,
+      124060,
+      124070
+    ],
+    "variants": {
+      "124000": "MANIKIN (CLAWS)",
+      "124010": "MANIKIN (SWORD AND SHIELD)",
+      "124020": "MANIKIN (KNIFE AND SHIELD)",
+      "124030": "MANIKIN (BOW)",
+      "124040": "MANIKIN (CLAWS)",
+      "124050": "MANIKIN (SWORD AND SHIELD)",
+      "124060": "MANIKIN (KNIFE AND SHIELD)",
+      "124070": "MANIKIN (BOW)"
+    }
+  },
+  "125": {
+    "name": "폭발 망자",
+    "params": [
+      125000,
+      125004,
+      125009,
+      125010,
+      125011,
+      125012,
+      125013,
+      125014,
+      125015,
+      125016
+    ],
+    "variants": {
+      "125004": "RUPTURING HOLLOW (FIRE)",
+      "125009": "BLACK PHANTOM RUPTURING HOLLOW (FIRE)",
+      "125010": "RUPTURING HOLLOW (FIRE)",
+      "125011": "RUPTURING HOLLOW",
+      "125012": "RUPTURING HOLLOW",
+      "125013": "RUPTURING HOLLOW",
+      "125014": "RUPTURING HOLLOW (CORROSION)",
+      "125015": "RUPTURING HOLLOW (PETRIFY)",
+      "125016": "BLACK PHANTOM RUPTURING HOLLOW (CORROSION)",
+      "125000": "RUPTURING HOLLOW (LIVE BASE VARIANT)"
+    }
+  },
+  "127": {
+    "name": "불사의 묘지 망자",
+    "params": [
+      127000,
+      127001,
+      127002,
+      127003,
+      127004,
+      127005,
+      127010,
+      127011,
+      127020,
+      127030,
+      127100,
+      127101,
+      127110,
+      127111
+    ],
+    "variants": {
+      "127000": "UNDEAD CRYPT HOLLOW",
+      "127001": "UNDEAD CRYPT HOLLOW",
+      "127002": "UNDEAD CRYPT HOLLOW",
+      "127003": "UNDEAD CRYPT HOLLOW",
+      "127004": "UNDEAD CRYPT HOLLOW",
+      "127005": "UNDEAD CRYPT HOLLOW",
+      "127010": "UNDEAD CRYPT HOLLOW (TORCH)",
+      "127011": "UNDEAD CRYPT HOLLOW (TORCH)",
+      "127020": "UNDEAD CRYPT HOLLOW (SWORD)",
+      "127030": "UNDEAD CRYPT HOLLOW",
+      "127100": "UNDEAD CRYPT HOLLOW",
+      "127101": "UNDEAD CRYPT HOLLOW",
+      "127110": "UNDEAD CRYPT HOLLOW (TORCH)",
+      "127111": "UNDEAD CRYPT HOLLOW (TORCH)"
+    }
+  },
+  "129": {
+    "name": "마녀 나무",
+    "params": [
+      129000,
+      129010,
+      129200
+    ],
+    "variants": {
+      "129000": "WITCHTREE (STAFF)",
+      "129010": "WITCHTREE (CHIME)",
+      "129200": "WHITE WITCHTREE (STAFF)"
+    }
+  },
+  "131": {
+    "name": "고룡원 기사",
+    "params": [
+      131000,
+      131010,
+      131020
+    ],
+    "variants": {
+      "131000": "ARCHDRAKE",
+      "131010": "ARCHDRAKE (CHIME)",
+      "131020": "ARCHDRAKE (STAFF)"
+    }
+  },
+  "132": {
+    "name": "해골",
+    "params": [
+      132003,
+      132004,
+      132013,
+      132014,
+      132020,
+      132022,
+      132024,
+      132030,
+      132033,
+      132090
+    ],
+    "variants": {
+      "132003": "SKELETON (DUAL FALCHIONS)",
+      "132004": "SKELETON (DUAL FALCHIONS)",
+      "132013": "SKELETON (FALCHION AND SHIELD)",
+      "132014": "SKELETON (FALCHION AND SHIELD)",
+      "132020": "SKELETON (SWORD AND SHIELD)",
+      "132022": "SKELETON (SWORD AND SHIELD)",
+      "132024": "SKELETON (SWORD AND SHIELD)",
+      "132030": "SKELETON (BOW)",
+      "132033": "SKELETON (BOW)",
+      "132090": "SKELETON (UNARMED)"
+    }
+  },
+  "133": {
+    "name": "바퀴 해골",
+    "params": [
+      133001,
+      133010,
+      133020
+    ],
+    "variants": {
+      "133001": "BONEWHEEL",
+      "133010": "BONEWHEEL (FALCHION)",
+      "133020": "BONEWHEEL (MURAKUMO)"
+    }
+  },
+  "134": {
+    "name": "게름 시민",
+    "params": [
+      134000
+    ],
+    "variants": {
+      "134000": "GYRM CITIZEN (ANVIL FLAIL)"
+    }
+  },
+  "135": {
+    "name": "게름 전사",
+    "params": [
+      135000,
+      135010,
+      135020,
+      135030,
+      135040,
+      135050
+    ],
+    "variants": {
+      "135000": "GYRM WARRIOR (THROWING AXES)",
+      "135010": "GYRM WARRIOR (ANVIL HAMMER)",
+      "135020": "GYRM WARRIOR (CROSSBOW)",
+      "135030": "GYRM WARRIOR (THROWING AXES)",
+      "135040": "GYRM WARRIOR (ANVIL HAMMER)",
+      "135050": "GYRM WARRIOR (CROSSBOW)"
+    }
+  },
+  "138": {
+    "name": "고문자",
+    "params": [
+      138000,
+      138001,
+      138010,
+      138011
+    ],
+    "variants": {
+      "138000": "UNDEAD TORTURER (POLE)",
+      "138001": "BLACK PHANTOM UNDEAD TORTURER (POLE)",
+      "138010": "UNDEAD TORTURER (WHIP)",
+      "138011": "BLACK PHANTOM UNDEAD TORTURER (WHIP)"
+    }
+  },
+  "139": {
+    "name": "인조 망자",
+    "params": [
+      139000,
+      139001,
+      139008,
+      139009,
+      139010
+    ],
+    "variants": {
+      "139000": "ARTIFICIAL UNDEAD (HELMET)",
+      "139001": "ARTIFICIAL UNDEAD (HELMET)",
+      "139008": "BLACK PHANTOM ARTIFICIAL UNDEAD (HELMET)",
+      "139009": "BLACK PHANTOM ARTIFICIAL UNDEAD (HELMET)",
+      "139010": "ARTIFICAL UNDEAD"
+    }
+  },
+  "141": {
+    "name": "변종 망자",
+    "params": [
+      141000,
+      141002
+    ],
+    "variants": {
+      "141000": "UNDEAD ABERRATION",
+      "141002": "UNDEAD ABERRATION"
+    }
+  },
+  "146": {
+    "name": "휘석가 시민",
+    "params": [
+      146000,
+      146010
+    ],
+    "variants": {
+      "146000": "TSELDORAN CITIZEN (DAGGER)",
+      "146010": "TSELDORAN CITIZEN (SWORD)"
+    }
+  },
+  "147": {
+    "name": "기어다니는 망자",
+    "params": [
+      147001,
+      147004
+    ],
+    "variants": {
+      "147001": "CRAWLING UNDEAD",
+      "147004": "CRAWLING UNDEAD"
+    }
+  },
+  "148": {
+    "name": "농부",
+    "params": [
+      148000,
+      148010,
+      148020,
+      148030,
+      148040,
+      148041
+    ],
+    "variants": {
+      "148000": "PEASANT (PICKAXE)",
+      "148010": "PEASANT (PICKAXE)",
+      "148020": "PEASANT (PICKAXE)",
+      "148030": "PEASANT (SCYTHE)",
+      "148040": "PEASANT (TORCH)",
+      "148041": "PEASANT (TORCH)"
+    }
+  },
+  "149": {
+    "name": "망자 대장장이",
+    "params": [
+      149010
+    ],
+    "variants": {
+      "149010": "UNDEAD SMITH"
+    }
+  },
+  "150": {
+    "name": "돌 기사",
+    "params": [
+      150000
+    ],
+    "variants": {
+      "150000": "STONE KNIGHT"
+    }
+  },
+  "151": {
+    "name": "철갑병",
+    "params": [
+      151000,
+      151200,
+      151208,
+      151209
+    ],
+    "variants": {
+      "151000": "IRONCLAD",
+      "151200": "OLD IRONCLAD",
+      "151208": "BLACK PHANTOM IRONCLAD",
+      "151209": "BLACK PHANTOM OLD IRONCLAD"
+    }
+  },
+  "152": {
+    "name": "왕국 검사",
+    "params": [
+      152000,
+      152001,
+      152002,
+      152010,
+      152011
+    ],
+    "variants": {
+      "152000": "ROYAL SWORDSMAN",
+      "152001": "ROYAL SWORDSMAN",
+      "152002": "ROYAL SWORDSMAN",
+      "152010": "ROYAL SWORDSMAN (CROSSBOW)",
+      "152011": "ROYAL SWORDSMAN (CROSSBOW)"
+    }
+  },
+  "153": {
+    "name": "시안 기사",
+    "params": [
+      153000,
+      153002,
+      153003,
+      153010,
+      153012,
+      153013
+    ],
+    "variants": {
+      "153000": "SYAN KNIGHT (HALBERD)",
+      "153002": "SYAN KNIGHT (HALBERD)",
+      "153003": "SYAN KNIGHT (HALBERD)",
+      "153010": "SYAN KNIGHT (SWORD)",
+      "153012": "SYAN KNIGHT (SWORD)",
+      "153013": "SYAN KNIGHT (SWORD)"
+    }
+  },
+  "155": {
+    "name": "아마나 변종",
+    "params": [
+      155000
+    ],
+    "variants": {
+      "155000": "AMANA ABERRATION"
+    }
+  },
+  "157": {
+    "name": "무장 해골",
+    "params": [
+      157000,
+      157001,
+      157002,
+      157003,
+      157004,
+      157005,
+      157006,
+      157010,
+      157011,
+      157012,
+      157013,
+      157014,
+      157015,
+      157020,
+      157021,
+      157022,
+      157023,
+      157024,
+      157030,
+      157031,
+      157032,
+      157033
+    ],
+    "variants": {
+      "157000": "MASKED SKELETON (DUAL FALCHIONS)",
+      "157001": "MASKED SKELETON (DUAL FALCHIONS)",
+      "157002": "MASKED SKELETON (DUAL FALCHIONS)",
+      "157003": "ARMORED SKELETON (DUAL FALCHIONS)",
+      "157004": "MASKED SKELETON (DUAL FALCHIONS)",
+      "157005": "MASKED SKELETON (DUAL FALCHIONS)",
+      "157006": "MASKED SKELETON (DUAL FALCHIONS)",
+      "157010": "HELMET SKELETON (FALCHION AND SHIELD)",
+      "157011": "HELMET SKELETON (FALCHION AND SHIELD)",
+      "157012": "HELMET SKELETON (FALCHION AND SHIELD)",
+      "157013": "ARMORED SKELETON (FALCHION AND SHIELD)",
+      "157014": "HELMET SKELETON (FALCHION AND SHIELD)",
+      "157015": "HELMET SKELETON (FALCHION AND SHIELD)",
+      "157020": "HELMET SKELETON (SWORD AND SHIELD)",
+      "157021": "HELMET SKELETON (SWORD AND SHIELD)",
+      "157022": "HELMET SKELETON (SWORD AND SHIELD)",
+      "157023": "HELMET SKELETON (SWORD AND SHIELD)",
+      "157024": "HELMET SKELETON (SWORD AND SHIELD)",
+      "157030": "HELMET SKELETON (BOW)",
+      "157031": "HELMET SKELETON (BOW)",
+      "157032": "HELMET SKELETON (BOW)",
+      "157033": "HELMET SKELETON (BOW)"
+    }
+  },
+  "201": {
+    "name": "돼지",
+    "params": [
+      201100
+    ],
+    "variants": {
+      "201100": "PIG"
+    }
+  },
+  "202": {
+    "name": "멧돼지",
+    "params": [
+      202100
+    ],
+    "variants": {
+      "202100": "UNDEAD BOAR"
+    }
+  },
+  "203": {
+    "name": "거미",
+    "params": [
+      203000,
+      203001,
+      203002,
+      203009
+    ],
+    "variants": {
+      "203000": "SPIDER",
+      "203001": "SPIDER",
+      "203002": "SPIDER",
+      "203009": "BLACK PHANTOM SPIDER"
+    }
+  },
+  "204": {
+    "name": "독 나방",
+    "params": [
+      204000
+    ],
+    "variants": {
+      "204000": "POISON MOTH"
+    }
+  },
+  "205": {
+    "name": "뿔 딱정벌레",
+    "params": [
+      205000,
+      205001,
+      205100,
+      205102
+    ],
+    "variants": {
+      "205000": "POISON HORN BEETLE",
+      "205001": "POISON HORN BEETLE",
+      "205100": "ACID HORN BEETLE",
+      "205102": "ACID HORN BEETLE"
+    }
+  },
+  "206": {
+    "name": "지네",
+    "params": [
+      206000,
+      206001
+    ],
+    "variants": {
+      "206000": "RAZORBACK NIGHTCRAWLER",
+      "206001": "RAZORBACK NIGHTCRAWLER"
+    }
+  },
+  "209": {
+    "name": "사냥개",
+    "params": [
+      209000,
+      209001
+    ],
+    "variants": {
+      "209000": "HUNTING DOG",
+      "209001": "HUNTING DOG"
+    }
+  },
+  "210": {
+    "name": "바실리스크",
+    "params": [
+      210000,
+      210001,
+      210002,
+      210003,
+      210010
+    ],
+    "variants": {
+      "210000": "BASILISK",
+      "210001": "BASILISK",
+      "210002": "BASILISK",
+      "210003": "BASILISK",
+      "210010": "BASILISK"
+    }
+  },
+  "213": {
+    "name": "결정 도마뱀",
+    "params": [
+      213000,
+      213002,
+      213003,
+      213004,
+      213005,
+      213006,
+      213007,
+      213008,
+      213009,
+      213010,
+      213011,
+      213012,
+      213013,
+      213014,
+      213100,
+      213101
+    ],
+    "variants": {
+      "213000": "CRYSTAL LIZARD",
+      "213002": "CRYSTAL LIZARD",
+      "213003": "CRYSTAL LIZARD",
+      "213004": "CRYSTAL LIZARD",
+      "213005": "CRYSTAL LIZARD",
+      "213006": "CRYSTAL LIZARD",
+      "213007": "CRYSTAL LIZARD",
+      "213008": "CRYSTAL LIZARD",
+      "213009": "CRYSTAL LIZARD",
+      "213010": "CRYSTAL LIZARD",
+      "213011": "CRYSTAL LIZARD",
+      "213012": "CRYSTAL LIZARD",
+      "213013": "CRYSTAL LIZARD",
+      "213014": "CRYSTAL LIZARD",
+      "213100": "RED CRYSTAL LIZARD",
+      "213101": "RED CRYSTAL LIZARD"
+    }
+  },
+  "214": {
+    "name": "거대 멧돼지",
+    "params": [
+      214001
+    ],
+    "variants": {
+      "214001": "GIANT UNDEAD BOAR"
+    }
+  },
+  "217": {
+    "name": "다크드웰러",
+    "params": [
+      217000
+    ],
+    "variants": {
+      "217000": "DARKDWELLER"
+    }
+  },
+  "220": {
+    "name": "거대 뿔 딱정벌레",
+    "params": [
+      220000,
+      220001,
+      220002
+    ],
+    "variants": {
+      "220000": "GIANT ACID HORN BEETLE",
+      "220001": "GIANT ACID HORN BEETLE",
+      "220002": "GIANT ACID HORN BEETLE"
+    }
+  },
+  "222": {
+    "name": "거대 바실리스크",
+    "params": [
+      222000,
+      222001
+    ],
+    "variants": {
+      "222000": "GIANT BASILISK",
+      "222001": "GIANT BASILISK"
+    }
+  },
+  "223": {
+    "name": "쥐",
+    "params": [
+      223000
+    ],
+    "variants": {
+      "223000": "MONGREL RAT"
+    }
+  },
+  "224": {
+    "name": "다크서커",
+    "params": [
+      224000
+    ],
+    "variants": {
+      "224000": "DARKSUCKER"
+    }
+  },
+  "226": {
+    "name": "시체 쥐",
+    "params": [
+      226000,
+      226001,
+      226100
+    ],
+    "variants": {
+      "226000": "CORPSE RAT",
+      "226001": "CORPSE RAT",
+      "226100": "CORPSE RAT"
+    }
+  },
+  "227": {
+    "name": "들개",
+    "params": [
+      227000,
+      227001,
+      227009,
+      227100,
+      227101
+    ],
+    "variants": {
+      "227000": "UNDEAD DOG",
+      "227001": "UNDEAD DOG",
+      "227009": "BLACK PHANTOM UNDEAD DOG",
+      "227100": "UNDEAD SNOW DOG",
+      "227101": "UNDEAD SNOW DOG"
+    }
+  },
+  "300": {
+    "name": "하마",
+    "params": [
+      300000,
+      300001,
+      300002
+    ],
+    "variants": {
+      "300000": "CYCLOPS",
+      "300001": "CYCLOPS",
+      "300002": "CYCLOPS"
+    }
+  },
+  "301": {
+    "name": "하이데 기사",
+    "params": [
+      301000,
+      301001,
+      301003,
+      301010,
+      301011,
+      301020,
+      301030
+    ],
+    "variants": {
+      "301001": "HEIDE KNIGHT",
+      "301003": "HEIDE KNIGHT",
+      "301010": "MASK HEIDE KNIGHT (SPEAR)",
+      "301011": "MASK HEIDE KNIGHT (SPEAR)",
+      "301020": "MASK HEIDE KNIGHT (LANCE)",
+      "301030": "MASK HEIDE KNIGHT (GRAND LANCE)",
+      "301000": "HEIDE KNIGHT (LIVE BASE VARIANT)"
+    }
+  },
+  "302": {
+    "name": "옥졸",
+    "params": [
+      302000,
+      302009
+    ],
+    "variants": {
+      "302000": "UNDEAD JAILER",
+      "302009": "BLACK PHANTOM UNDEAD JAILER"
+    }
+  },
+  "306": {
+    "name": "아론 기사장",
+    "params": [
+      306000,
+      306006,
+      306007,
+      306008,
+      306009,
+      306010,
+      306011,
+      306019
+    ],
+    "variants": {
+      "306000": "ALONNE CAPTAIN",
+      "306006": "BLACK PHANTOM ALONNE CAPTAIN",
+      "306007": "ALONNE CAPTAIN",
+      "306008": "BLACK PHANTOM ALONNE CAPTAIN",
+      "306009": "BLACK PHANTOM ALONNE CAPTAIN",
+      "306010": "ALONNE CAPTAIN (GREATBOW)",
+      "306011": "ALONNE CAPTAIN (GREATBOW)",
+      "306019": "BLACK PHANTOM ALONNE CAPTAIN (GREATBOW)"
+    }
+  },
+  "308": {
+    "name": "사자 전사",
+    "params": [
+      308000,
+      308100
+    ],
+    "variants": {
+      "308000": "LION WARRIOR",
+      "308100": "GOLD LION WARRIOR"
+    }
+  },
+  "309": {
+    "name": "거인",
+    "params": [
+      309000,
+      309001
+    ],
+    "variants": {
+      "309000": "ELITE GIANT (DUAL CLUBS)",
+      "309001": "ELITE GIANT (DUAL CLUBS)"
+    }
+  },
+  "311": {
+    "name": "기마 감독관",
+    "params": [
+      311000
+    ],
+    "variants": {
+      "311000": "MOUNTED OVERSEER"
+    }
+  },
+  "312": {
+    "name": "묘지기",
+    "params": [
+      312000,
+      312001,
+      312010,
+      312011,
+      312021,
+      312031,
+      312032,
+      312040,
+      312050
+    ],
+    "variants": {
+      "312000": "GRAVE WARDEN (SICKLE)",
+      "312001": "GRAVE WARDEN (SICKLE)",
+      "312010": "GRAVE WARDEN (SPEAR)",
+      "312011": "GRAVE WARDEN (SPEAR)",
+      "312021": "GRAVE WARDEN (SICKLE)",
+      "312031": "GRAVE WARDEN (SPEAR)",
+      "312032": "GRAVE WARDEN (SPEAR)",
+      "312040": "GRAVE WARDEN (SICKLE)",
+      "312050": "GRAVE WARDEN (SPEAR)"
+    }
+  },
+  "313": {
+    "name": "매 기사",
+    "params": [
+      313000,
+      313010,
+      313021,
+      313031
+    ],
+    "variants": {
+      "313000": "FALCONER (SWORD AND SHIELD)",
+      "313010": "FALCONER (SWORD AND SHIELD)",
+      "313021": "FALCONER",
+      "313031": "FALCONER (BOW)"
+    }
+  },
+  "314": {
+    "name": "원시 기사",
+    "params": [
+      314000
+    ],
+    "variants": {
+      "314000": "PRIMAL KNIGHT"
+    }
+  },
+  "315": {
+    "name": "녹슨 원시 기사",
+    "params": [
+      315000
+    ],
+    "variants": {
+      "315000": "RUSTED PRIMAL KNIGHT"
+    }
+  },
+  "316": {
+    "name": "사막 마술사",
+    "params": [
+      316001
+    ],
+    "variants": {
+      "316001": "DESERT SORCERESS"
+    }
+  },
+  "317": {
+    "name": "용의 신도",
+    "params": [
+      317000
+    ],
+    "variants": {
+      "317000": "DRAGON ACOLYTE"
+    }
+  },
+  "319": {
+    "name": "아론 기사",
+    "params": [
+      319000,
+      319008,
+      319009,
+      319010,
+      319011
+    ],
+    "variants": {
+      "319000": "ALONNE KNIGHT",
+      "319008": "ALONNE KNIGHT",
+      "319009": "BLACK PHANTOM ALONNE KNIGHT",
+      "319010": "ALONNE KNIGHT (GREATBOW)",
+      "319011": "ALONNE KNIGHT (GREATBOW)"
+    }
+  },
+  "321": {
+    "name": "미믹",
+    "params": [
+      321000,
+      321001,
+      321002,
+      321003,
+      321004,
+      321010,
+      321011,
+      321012,
+      321014,
+      321015
+    ],
+    "variants": {
+      "321000": "MIMIC",
+      "321001": "MIMIC",
+      "321002": "MIMIC",
+      "321003": "MIMIC",
+      "321004": "MIMIC",
+      "321010": "MIMIC",
+      "321011": "MIMIC",
+      "321012": "MIMIC",
+      "321014": "MIMIC",
+      "321015": "MIMIC"
+    }
+  },
+  "330": {
+    "name": "오래된 기사",
+    "params": [
+      330000,
+      330010,
+      330019,
+      330040,
+      330049
+    ],
+    "variants": {
+      "330000": "OLD KNIGHT (SWORD AND SHIELD)",
+      "330010": "OLD KNIGHT (UGS)",
+      "330019": "OLD KNIGHT (UGS)",
+      "330040": "OLD KNIGHT (GREATHAMMER)",
+      "330049": "OLD KNIGHT (GREATHAMMER)"
+    }
+  },
+  "331": {
+    "name": "용의 파수꾼",
+    "params": [
+      331002,
+      331011,
+      331021,
+      331031,
+      331041
+    ],
+    "variants": {
+      "331002": "DRAKEKEEPER (SWORD AND SHIELD)",
+      "331011": "DRAKEKEEPER (UGS)",
+      "331021": "DRAKEKEEPER (UNARMED)",
+      "331031": "DRAKEKEEPER (MACE)",
+      "331041": "DRAKEKEEPER (GREATHAMMER)"
+    }
+  },
+  "337": {
+    "name": "망자",
+    "params": [
+      337000,
+      337002,
+      337003,
+      337010,
+      337011,
+      337020,
+      337022,
+      337023
+    ],
+    "variants": {
+      "337000": "HOLLOW",
+      "337002": "HOLLOW",
+      "337003": "HOLLOW",
+      "337010": "HOLLOW (TORCH)",
+      "337011": "HOLLOW (TORCH)",
+      "337020": "HOLLOW (SHORTSWORD)",
+      "337022": "HOLLOW (SHORTSWORD)",
+      "337023": "HOLLOW (SHORTSWORD)"
+    }
+  },
+  "509": {
+    "name": "레이디아 마녀",
+    "params": [
+      509000,
+      509009
+    ],
+    "variants": {
+      "509000": "LEYDIA WITCH",
+      "509009": "BLACK PHANTOM LEYDIA WITCH"
+    }
+  },
+  "511": {
+    "name": "레이디아 기사",
+    "params": [
+      511000
+    ],
+    "variants": {
+      "511000": "IMPERIOUS KNIGHT"
+    }
+  },
+  "512": {
+    "name": "레이디아 주술사",
+    "params": [
+      512000
+    ],
+    "variants": {
+      "512000": "LEYDIA PYROMANCER"
+    }
+  },
+  "601": {
+    "name": "불 도마뱀",
+    "params": [
+      601000,
+      601001
+    ],
+    "variants": {
+      "601000": "FIRE SALAMANDER",
+      "601001": "FIRE SALAMANDER"
+    }
+  },
+  "650": {
+    "name": "철 전사",
+    "params": [
+      650000,
+      650001,
+      650002,
+      650003
+    ],
+    "variants": {
+      "650000": "IRON WARRIOR",
+      "650001": "IRON WARRIOR",
+      "650002": "IRON WARRIOR",
+      "650003": "BLACK PHANTOM IRON WARRIOR"
+    }
+  },
+  "651": {
+    "name": "연기 마술사",
+    "params": [
+      651000,
+      651001,
+      651002,
+      651003
+    ],
+    "variants": {
+      "651000": "FUME SORCERER",
+      "651001": "FUME SORCERER",
+      "651002": "FUME SORCERER",
+      "651003": "BLACK PHANTOM FUME SORCERER"
+    }
+  },
+  "653": {
+    "name": "재 전사",
+    "params": [
+      653000,
+      653001,
+      653002,
+      653003,
+      653004,
+      653005,
+      653006,
+      653010,
+      653011,
+      653012,
+      653020,
+      653021,
+      653022,
+      653029,
+      653030,
+      653031,
+      653032
+    ],
+    "variants": {
+      "653000": "ASHEN WARRIOR (DUAL AXES)",
+      "653001": "ASHEN WARRIOR (DUAL AXES)",
+      "653002": "ASHEN WARRIOR (DUAL AXES)",
+      "653003": "ASHEN WARRIOR (DUAL AXES)",
+      "653004": "ASHEN WARRIOR (DUAL AXES)",
+      "653005": "ASHEN WARRIOR (DUAL AXES)",
+      "653006": "BLACK PHANTOM ASHEN WARRIOR (DUAL AXES)",
+      "653010": "ASHEN WARRIOR (SWORD)",
+      "653011": "ASHEN WARRIOR (SWORD)",
+      "653012": "ASHEN WARRIOR (SWORD)",
+      "653020": "ASHEN WARRIOR (SWORD)",
+      "653021": "ASHEN WARRIOR (AXE AND SHIELD)",
+      "653022": "ASHEN WARRIOR (AXE AND SHIELD)",
+      "653029": "ASHEN WARRIOR (AXE AND SHIELD)",
+      "653030": "BLACK PHANTOM ASHEN WARRIOR (A&S)",
+      "653031": "ASHEN WARRIOR (BOW)",
+      "653032": "ASHEN WARRIOR (BOW)"
+    }
+  },
+  "654": {
+    "name": "잿빛 우상",
+    "params": [
+      654000,
+      654001
+    ],
+    "variants": {
+      "654000": "SCORCHER",
+      "654001": "SCORCHER"
+    }
+  },
+  "656": {
+    "name": "빙의 갑옷",
+    "params": [
+      656000,
+      656001,
+      656002,
+      656003,
+      656004,
+      656005,
+      656006
+    ],
+    "variants": {
+      "656000": "POSSESSED ARMOR",
+      "656001": "POSSESSED ARMOR",
+      "656002": "POSSESSED ARMOR",
+      "656003": "POSSESSED ARMOR",
+      "656004": "POSSESSED ARMOR",
+      "656005": "POSSESSED ARMOR",
+      "656006": "BLACK PHANTOM POSSESSED ARMOR"
+    }
+  },
+  "657": {
+    "name": "통 운반자",
+    "params": [
+      657000,
+      657001
+    ],
+    "variants": {
+      "657000": "CASK RUNNER",
+      "657001": "CASK RUNNER"
+    }
+  },
+  "659": {
+    "name": "성벽 골렘",
+    "params": [
+      659000,
+      659001,
+      659002,
+      659003,
+      659004,
+      659005
+    ],
+    "variants": {
+      "659000": "RAMPART GOLEM",
+      "659001": "RAMPART GOLEM",
+      "659002": "RAMPART GOLEM",
+      "659003": "BLACK PHANTOM RAMPART GOLEM",
+      "659004": "BLACK PHANTOM RAMPART GOLEM",
+      "659005": "BLACK PHANTOM RAMPART GOLEM"
+    }
+  },
+  "660": {
+    "name": "얼음 골렘",
+    "params": [
+      660000,
+      660001,
+      660002,
+      660003
+    ],
+    "variants": {
+      "660000": "ICE GOLEM",
+      "660001": "ICE GOLEM",
+      "660002": "BLACK PHANTOM ICE GOLEM",
+      "660003": "BLACK PHANTOM ICE GOLEM"
+    }
+  },
+  "661": {
+    "name": "얼음 말",
+    "params": [
+      661000,
+      661001
+    ],
+    "variants": {
+      "661000": "ICE STALLION",
+      "661001": "BLACK PHANTOM ICE STALLION"
+    }
+  },
+  "662": {
+    "name": "얼음 쥐",
+    "params": [
+      662000,
+      662001
+    ],
+    "variants": {
+      "662000": "ICE RAT",
+      "662001": "BLACK PHANTOM ICE RAT"
+    }
+  },
+  "663": {
+    "name": "얼음 마검사",
+    "params": [
+      663000,
+      663001,
+      663002,
+      663003,
+      663004,
+      663005,
+      663010,
+      663011,
+      663012,
+      663013
+    ],
+    "variants": {
+      "663000": "ICED SPELLSWORD",
+      "663001": "ICED SPELLSWORD",
+      "663002": "ICED SPELLSWORD",
+      "663003": "ICED SPELLSWORD",
+      "663004": "BLACK PHANTOM ICED SPELLSWORD",
+      "663005": "BLACK PHANTOM ICED SPELLSWORD",
+      "663010": "SPELLSWORD",
+      "663011": "SPELLSWORD",
+      "663012": "SPELLSWORD",
+      "663013": "SPELLSWORD"
+    }
+  },
+  "665": {
+    "name": "성벽 병사",
+    "params": [
+      665000,
+      665001,
+      665010,
+      665011
+    ],
+    "variants": {
+      "665000": "SANCTUM GUARDIAN",
+      "665001": "SANCTUM GUARDIAN",
+      "665010": "SANCTUM GUARDIAN (CROSSBOWS)",
+      "665011": "SANCTUM GUARDIAN (CROSSBOWS)"
+    }
+  },
+  "666": {
+    "name": "성벽 병사",
+    "params": [
+      666000,
+      666001,
+      666002,
+      666010,
+      666011,
+      666012,
+      666020,
+      666021,
+      666022,
+      666030,
+      666040,
+      666041,
+      666050,
+      666051,
+      666060,
+      666061,
+      666070,
+      666080
+    ],
+    "variants": {
+      "666000": "SANCTUM SOLDIER (GREATHAMMER)",
+      "666001": "SANCTUM SOLDIER (GREATHAMMER)",
+      "666002": "SANCTUM SOLDIER (GREATHAMMER)",
+      "666010": "SANCTUM SOLDIER (LANCE)",
+      "666011": "SANCTUM SOLDIER (LANCE)",
+      "666012": "SANCTUM SOLDIER (LANCE)",
+      "666020": "SANCTUM SOLDIER (BOW)",
+      "666021": "SANCTUM SOLDIER (BOW)",
+      "666022": "SANCTUM SOLDIER (BOW)",
+      "666030": "SANCTUM SOLDIER (SWORD)",
+      "666040": "SANCTUM SOLDIER (POISON AURA HAMMER)",
+      "666041": "SANCTUM SOLDIER (POISON AURA HAMMER)",
+      "666050": "SANCTUM SOLDIER (POISON AURA LANCE)",
+      "666051": "SANCTUM SOLDIER (POISON AURA LANCE)",
+      "666060": "SANCTUM SOLDIER (POISON AURA BOW)",
+      "666061": "SANCTUM SOLDIER (POISON AURA BOW)",
+      "666070": "SANCTUM SOLDIER (TORCH)",
+      "666080": "SANCTUM SOLDIER (POISON AURA TORCH)"
+    }
+  },
+  "670": {
+    "name": "성벽 사제",
+    "params": [
+      670000
+    ],
+    "variants": {
+      "670000": "SANCTUM PRIESTESS"
+    }
+  },
+  "671": {
+    "name": "석상 도마뱀",
+    "params": [
+      671000,
+      671100
+    ],
+    "variants": {
+      "671000": "POISON STATUE LIZARD",
+      "671100": "PETRIFY STATUE LIZARD"
+    }
+  },
+  "672": {
+    "name": "부식 곤충",
+    "params": [
+      672000,
+      672001
+    ],
+    "variants": {
+      "672000": "CORROSIVE INSECT",
+      "672001": "CORROSIVE INSECT"
+    }
+  },
+  "674": {
+    "name": "이교 나무",
+    "params": [
+      674000
+    ],
+    "variants": {
+      "674000": "PAGAN TREE"
+    }
+  },
+  "677": {
+    "name": "시종",
+    "params": [
+      677000,
+      677001,
+      677010,
+      677011
+    ],
+    "variants": {
+      "677000": "RETAINER (DAGGER)",
+      "677001": "RETAINER (DAGGER)",
+      "677010": "RETAINER (STAFF)",
+      "677011": "RETAINER (STAFF)"
+    }
+  },
+  "683": {
+    "name": "불완전한 자",
+    "params": [
+      683000
+    ],
+    "variants": {
+      "683000": "IMPERFECT"
+    }
+  },
+  "689": {
+    "name": "불탄 로이스 기사",
+    "params": [
+      689000,
+      689010,
+      689020,
+      689030
+    ],
+    "variants": {
+      "689000": "CHARRED LOYCE KNIGHT (SWORD)",
+      "689010": "CHARRED LOYCE KNIGHT (GREATAXE)",
+      "689020": "CHARRED LOYCE KNIGHT (GREATHAMMER)",
+      "689030": "CHARRED LOYCE KNIGHT (PYRO)"
+    }
+  },
+  "880": {
+    "name": "용혈 기사",
+    "params": [
+      880000
+    ],
+    "variants": {
+      "880000": "DRAKEBLOOD KNIGHT"
+    }
+  }
+}
