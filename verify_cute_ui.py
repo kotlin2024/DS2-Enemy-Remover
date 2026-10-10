@@ -89,15 +89,50 @@ with tempfile.TemporaryDirectory(dir=RESOURCES) as home:
     assert app.annoying_check.winfo_rootx()+app.annoying_check.winfo_width() <= app.canvas.winfo_rootx()+app.canvas.winfo_width()
     root.geometry('1240x940+20+20')
     root.update()
+    # Runtime language switch must preserve every gameplay-facing choice.
+    prior_selected=set(controller.selected)
+    prior_flags=(app.phobia.get(),app.annoying.get(),app.only.get(),app.offline.get(),app.show_images.get())
+    controller.set_enabled(True)
+    app.language_buttons['en'].invoke(); root.update()
+    assert controller.enabled and controller.selected==prior_selected
+    assert prior_flags==(app.phobia.get(),app.annoying.get(),app.only.get(),app.offline.get(),app.show_images.get())
+    assert app.rows['511'].name.cget('text')=='Imperious Knight'
+    assert app.rows['654'].name.cget('text')=='Scorcher'
+    assert app.toggle.cget('text')=='Stop & restore (F8)'
+    assert '현재' not in app.live_counts.get()
+    assert all(not __import__('re').search('[가-힣]',widget.cget('text')) for widget,_ in app.translated_widgets)
+    app.search.set('amana'); app.filter()
+    assert set(app.layout_signature[0])=={'105'}
+    app.search.set('아마나'); app.filter()
+    assert set(app.layout_signature[0])=={'105'}
+    app.search.set('reindeer'); app.filter()
+    assert set(app.layout_signature[0])=={'661'}
+    app.search.set(''); app.filter()
+    controller.state['message']='로딩 중 · 연결이 안정되면 자동으로 다시 적용합니다.'
+    app.render_state(controller.snapshot())
+    assert 'Loading' in app.status.get()
+    app.language_buttons['ko'].invoke(); root.update()
+    assert controller.enabled and controller.selected==prior_selected
+    assert app.rows['511'].name.cget('text')==controller.catalog['511']['name']
+    app.language_buttons['en'].invoke(); controller.set_enabled(False)
+    controller.state['message']='미리보기 · 게임 연결 없음'; app.render_state(controller.snapshot())
+    root.geometry('1000x800+20+20'); root.update()
+    assert app.language_menu.winfo_ismapped()
+    assert app.annoying_check.winfo_rootx()+app.annoying_check.winfo_width() <= app.canvas.winfo_rootx()+app.canvas.winfo_width()
+    assert app.toggle.winfo_ismapped()
+    root.geometry('1240x940+20+20'); root.update()
+    root.update()
     def capture():
+        root.attributes('-topmost',True)
         root.lift()
         root.update()
         x,y=root.winfo_rootx(),root.winfo_rooty()
-        ImageGrab.grab(bbox=(x,y,x+root.winfo_width(),y+root.winfo_height())).save(RESOURCES/'preview-comfort.png')
+        ImageGrab.grab(bbox=(x,y,x+root.winfo_width(),y+root.winfo_height())).save(RESOURCES/'preview-english.png')
         result={'cards':len(app.rows),'images':len(app.images),'worker_started':False,
                 'card_selection':True,'search_and_region_filter':True,
                 'offline_start_gate':True,'image_toggle':True,'minimum_size_actions_visible':True,
                 'phobia_filter':True,'annoying_filter':True,'category_union':True,'annoying_search_region':True,'filter_preserves_selection':True,'hero_basilisk_removed':True,
+                'language_switch':True,'english_names_from_source':True,'english_status':True,'bilingual_search':True,'language_preserves_active_session':True,'english_minimum_layout':True,
                 'start_and_stop_callbacks':True,'sidebar_scroll_controls_accessible':True,
                 'rounded_cards':True,'sidebar_text_size':17,'sidebar_button_height':58}
         (RESOURCES/'cute_ui_verification.json').write_text(json.dumps(result,indent=2),encoding='utf-8')

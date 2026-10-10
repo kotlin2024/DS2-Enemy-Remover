@@ -1,0 +1,817 @@
+{
+  "100": {
+    "name": "Goblin",
+    "aliases": [
+      "GOBLIN (UNARMED)",
+      "BLACK PHANTOM GOBLIN (UNARMED)",
+      "GOBLIN (BONE CLUB)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "101": {
+    "name": "Kobold",
+    "aliases": [
+      "KOBOLD",
+      "KOBOLD (SMOKEY)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "102": {
+    "name": "Hollow Soldier",
+    "aliases": [
+      "HOLLOW SOLDIER (SPEAR)",
+      "HOLLOW SOLDIER (GREATSWORD)",
+      "BLACK PHANTOM HOLLOW SOLDIER (GREATSWORD)",
+      "HOLLOW SOLDIER (HALBERD)",
+      "HOLLOW SOLDIER (SWORD AND SHIELD)",
+      "HOLLOW SOLDIER (BOW)",
+      "ROYAL SOLDIER (SPEAR)",
+      "ROYAL SOLDIER (GREATSWORD)",
+      "ROYAL SOLDIER (BOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "103": {
+    "name": "Hollow Infantry",
+    "aliases": [
+      "HOLLOW INFANTRY (UNARMED)",
+      "HOLLOW INFANTRY (DAGGER)",
+      "HOLLOW INFANTRY (SWORD AND SHIELD)",
+      "HOLLOW INFANTRY (AXE)",
+      "HOLLOW INFANTRY (BOW)",
+      "ROYAL INFANTRY (SWORD AND SHIELD)",
+      "ROYAL INFANTRY (AXE)",
+      "ROYAL INFANTRY (BOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "105": {
+    "name": "Amana Priestess",
+    "aliases": [
+      "AMANA HEALER",
+      "AMANA CASTER",
+      "Amana Shrine Maiden",
+      "Amana Caster",
+      "Amana Healer"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "106": {
+    "name": "Priest / Priestess",
+    "aliases": [
+      "WHITE PRIEST",
+      "BLACK PHANTOM WHITE PRIEST",
+      "PRIESTESS"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "107": {
+    "name": "Spider Hollow",
+    "aliases": [
+      "SPIDER HOLLOW"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "108": {
+    "name": "Rogue",
+    "aliases": [
+      "ROGUE (DUAL SHORTSWORDS)",
+      "ROGUE (CLUB)",
+      "ROGUE (BOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "113": {
+    "name": "Varangian",
+    "aliases": [
+      "VARANGIAN (SWORD AND SHIELD)",
+      "VARANGIAN (DUAL SWORDS)",
+      "VARANGIAN (BOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "115": {
+    "name": "Imported Hollow",
+    "aliases": [
+      "IMPORTED HOLLOW (UNARMED)",
+      "IMPORTED HOLLOW (DAGGER)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "117": {
+    "name": "Stone Soldier",
+    "aliases": [
+      "STONE SOLDIER (SPEAR AND SHIELD)",
+      "STONE SOLDIER (SPEAR)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "118": {
+    "name": "Hollow Mage",
+    "aliases": [
+      "BLACK HOLLOW MAGE",
+      "WHITE HOLLOW MAGE"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "121": {
+    "name": "Hooded Giant",
+    "aliases": [
+      "HOODED GIANT (UNARMED)",
+      "HOODED GIANT (CLUB)",
+      "HOODED GIANT (POISON)",
+      "HOODED GIANT (MAGE)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "123": {
+    "name": "Suspicious Shadow",
+    "aliases": [
+      "SUSPICIOUS SHADOW (SILVER)",
+      "SUSPICIOUS SHADOW (GOLD WITH RAPIER)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "124": {
+    "name": "Manikin",
+    "aliases": [
+      "MANIKIN (CLAWS)",
+      "MANIKIN (SWORD AND SHIELD)",
+      "MANIKIN (KNIFE AND SHIELD)",
+      "MANIKIN (BOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "125": {
+    "name": "Rupturing Hollow",
+    "aliases": [
+      "RUPTURING HOLLOW (FIRE)",
+      "BLACK PHANTOM RUPTURING HOLLOW (FIRE)",
+      "RUPTURING HOLLOW",
+      "RUPTURING HOLLOW (CORROSION)",
+      "RUPTURING HOLLOW (PETRIFY)",
+      "BLACK PHANTOM RUPTURING HOLLOW (CORROSION)",
+      "RUPTURING HOLLOW (LIVE BASE VARIANT)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "127": {
+    "name": "Undead Crypt Hollow",
+    "aliases": [
+      "UNDEAD CRYPT HOLLOW",
+      "UNDEAD CRYPT HOLLOW (TORCH)",
+      "UNDEAD CRYPT HOLLOW (SWORD)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "129": {
+    "name": "Witchtree",
+    "aliases": [
+      "WITCHTREE (STAFF)",
+      "WITCHTREE (CHIME)",
+      "WHITE WITCHTREE (STAFF)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "131": {
+    "name": "Archdrake",
+    "aliases": [
+      "ARCHDRAKE",
+      "ARCHDRAKE (CHIME)",
+      "ARCHDRAKE (STAFF)",
+      "Archdrake Pilgrim",
+      "Lindelt Cleric"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "132": {
+    "name": "Skeleton",
+    "aliases": [
+      "SKELETON (DUAL FALCHIONS)",
+      "SKELETON (FALCHION AND SHIELD)",
+      "SKELETON (SWORD AND SHIELD)",
+      "SKELETON (BOW)",
+      "SKELETON (UNARMED)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "133": {
+    "name": "Bonewheel Skeleton",
+    "aliases": [
+      "BONEWHEEL",
+      "BONEWHEEL (FALCHION)",
+      "BONEWHEEL (MURAKUMO)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "134": {
+    "name": "Gyrm Citizen",
+    "aliases": [
+      "GYRM CITIZEN (ANVIL FLAIL)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "135": {
+    "name": "Gyrm Warrior",
+    "aliases": [
+      "GYRM WARRIOR (THROWING AXES)",
+      "GYRM WARRIOR (ANVIL HAMMER)",
+      "GYRM WARRIOR (CROSSBOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "138": {
+    "name": "Undead Torturer",
+    "aliases": [
+      "UNDEAD TORTURER (POLE)",
+      "BLACK PHANTOM UNDEAD TORTURER (POLE)",
+      "UNDEAD TORTURER (WHIP)",
+      "BLACK PHANTOM UNDEAD TORTURER (WHIP)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "139": {
+    "name": "Artificial Undead",
+    "aliases": [
+      "ARTIFICIAL UNDEAD (HELMET)",
+      "BLACK PHANTOM ARTIFICIAL UNDEAD (HELMET)",
+      "ARTIFICAL UNDEAD"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "141": {
+    "name": "Undead Aberration",
+    "aliases": [
+      "UNDEAD ABERRATION"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "146": {
+    "name": "Tseldoran Citizen",
+    "aliases": [
+      "TSELDORAN CITIZEN (DAGGER)",
+      "TSELDORAN CITIZEN (SWORD)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "147": {
+    "name": "Crawling Undead",
+    "aliases": [
+      "CRAWLING UNDEAD"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "148": {
+    "name": "Peasant",
+    "aliases": [
+      "PEASANT (PICKAXE)",
+      "PEASANT (SCYTHE)",
+      "PEASANT (TORCH)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "149": {
+    "name": "Undead Smith",
+    "aliases": [
+      "UNDEAD SMITH"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "150": {
+    "name": "Stone Knight",
+    "aliases": [
+      "STONE KNIGHT"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "151": {
+    "name": "Ironclad Soldier",
+    "aliases": [
+      "IRONCLAD",
+      "OLD IRONCLAD",
+      "BLACK PHANTOM IRONCLAD",
+      "BLACK PHANTOM OLD IRONCLAD"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "152": {
+    "name": "Royal Swordsman",
+    "aliases": [
+      "ROYAL SWORDSMAN",
+      "ROYAL SWORDSMAN (CROSSBOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "153": {
+    "name": "Syan Knight",
+    "aliases": [
+      "SYAN KNIGHT (HALBERD)",
+      "SYAN KNIGHT (SWORD)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "155": {
+    "name": "Amana Aberration",
+    "aliases": [
+      "AMANA ABERRATION"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "157": {
+    "name": "Armored Skeleton",
+    "aliases": [
+      "MASKED SKELETON (DUAL FALCHIONS)",
+      "ARMORED SKELETON (DUAL FALCHIONS)",
+      "HELMET SKELETON (FALCHION AND SHIELD)",
+      "ARMORED SKELETON (FALCHION AND SHIELD)",
+      "HELMET SKELETON (SWORD AND SHIELD)",
+      "HELMET SKELETON (BOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "201": {
+    "name": "Pig",
+    "aliases": [
+      "PIG"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "202": {
+    "name": "Undead Boar",
+    "aliases": [
+      "UNDEAD BOAR"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "203": {
+    "name": "Spider",
+    "aliases": [
+      "SPIDER",
+      "BLACK PHANTOM SPIDER"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "204": {
+    "name": "Poison Moth",
+    "aliases": [
+      "POISON MOTH"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "205": {
+    "name": "Horn Beetle",
+    "aliases": [
+      "POISON HORN BEETLE",
+      "ACID HORN BEETLE"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "206": {
+    "name": "Razorback Nightcrawler",
+    "aliases": [
+      "RAZORBACK NIGHTCRAWLER"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "209": {
+    "name": "Hunting Dog",
+    "aliases": [
+      "HUNTING DOG"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "210": {
+    "name": "Basilisk",
+    "aliases": [
+      "BASILISK"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "213": {
+    "name": "Crystal Lizard",
+    "aliases": [
+      "CRYSTAL LIZARD",
+      "RED CRYSTAL LIZARD"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "214": {
+    "name": "Giant Undead Boar",
+    "aliases": [
+      "GIANT UNDEAD BOAR"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "217": {
+    "name": "Darkdweller",
+    "aliases": [
+      "DARKDWELLER"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "220": {
+    "name": "Giant Acid Horn Beetle",
+    "aliases": [
+      "GIANT ACID HORN BEETLE"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "222": {
+    "name": "Giant Basilisk",
+    "aliases": [
+      "GIANT BASILISK"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "223": {
+    "name": "Mongrel Rat",
+    "aliases": [
+      "MONGREL RAT"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "224": {
+    "name": "Darksucker",
+    "aliases": [
+      "DARKSUCKER"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "226": {
+    "name": "Corpse Rat",
+    "aliases": [
+      "CORPSE RAT"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "227": {
+    "name": "Undead Dog",
+    "aliases": [
+      "UNDEAD DOG",
+      "BLACK PHANTOM UNDEAD DOG",
+      "UNDEAD SNOW DOG"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "300": {
+    "name": "Ogre",
+    "aliases": [
+      "CYCLOPS",
+      "Cyclops"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "301": {
+    "name": "Heide Knight",
+    "aliases": [
+      "HEIDE KNIGHT",
+      "MASK HEIDE KNIGHT (SPEAR)",
+      "MASK HEIDE KNIGHT (LANCE)",
+      "MASK HEIDE KNIGHT (GRAND LANCE)",
+      "HEIDE KNIGHT (LIVE BASE VARIANT)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "302": {
+    "name": "Undead Jailer",
+    "aliases": [
+      "UNDEAD JAILER",
+      "BLACK PHANTOM UNDEAD JAILER"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "306": {
+    "name": "Alonne Captain",
+    "aliases": [
+      "ALONNE CAPTAIN",
+      "BLACK PHANTOM ALONNE CAPTAIN",
+      "ALONNE CAPTAIN (GREATBOW)",
+      "BLACK PHANTOM ALONNE CAPTAIN (GREATBOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "308": {
+    "name": "Lion Warrior",
+    "aliases": [
+      "LION WARRIOR",
+      "GOLD LION WARRIOR"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "309": {
+    "name": "Elite Giant",
+    "aliases": [
+      "ELITE GIANT (DUAL CLUBS)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "311": {
+    "name": "Mounted Overseer",
+    "aliases": [
+      "MOUNTED OVERSEER"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "312": {
+    "name": "Grave Warden",
+    "aliases": [
+      "GRAVE WARDEN (SICKLE)",
+      "GRAVE WARDEN (SPEAR)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "313": {
+    "name": "Falconer",
+    "aliases": [
+      "FALCONER (SWORD AND SHIELD)",
+      "FALCONER",
+      "FALCONER (BOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "314": {
+    "name": "Primal Knight",
+    "aliases": [
+      "PRIMAL KNIGHT"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "315": {
+    "name": "Rusted Primal Knight",
+    "aliases": [
+      "RUSTED PRIMAL KNIGHT"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "316": {
+    "name": "Desert Sorceress",
+    "aliases": [
+      "DESERT SORCERESS"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "317": {
+    "name": "Dragon Acolyte",
+    "aliases": [
+      "DRAGON ACOLYTE"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "319": {
+    "name": "Alonne Knight",
+    "aliases": [
+      "ALONNE KNIGHT",
+      "BLACK PHANTOM ALONNE KNIGHT",
+      "ALONNE KNIGHT (GREATBOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "321": {
+    "name": "Mimic",
+    "aliases": [
+      "MIMIC"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "330": {
+    "name": "Old Knight",
+    "aliases": [
+      "OLD KNIGHT (SWORD AND SHIELD)",
+      "OLD KNIGHT (UGS)",
+      "OLD KNIGHT (GREATHAMMER)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "331": {
+    "name": "Drakekeeper",
+    "aliases": [
+      "DRAKEKEEPER (SWORD AND SHIELD)",
+      "DRAKEKEEPER (UGS)",
+      "DRAKEKEEPER (UNARMED)",
+      "DRAKEKEEPER (MACE)",
+      "DRAKEKEEPER (GREATHAMMER)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "337": {
+    "name": "Hollow",
+    "aliases": [
+      "HOLLOW",
+      "HOLLOW (TORCH)",
+      "HOLLOW (SHORTSWORD)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "509": {
+    "name": "Leydia Witch",
+    "aliases": [
+      "LEYDIA WITCH",
+      "BLACK PHANTOM LEYDIA WITCH"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "511": {
+    "name": "Imperious Knight",
+    "aliases": [
+      "IMPERIOUS KNIGHT"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "512": {
+    "name": "Leydia Pyromancer",
+    "aliases": [
+      "LEYDIA PYROMANCER"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "601": {
+    "name": "Fire Salamander",
+    "aliases": [
+      "FIRE SALAMANDER",
+      "Flame Salamander"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "650": {
+    "name": "Iron Warrior",
+    "aliases": [
+      "IRON WARRIOR",
+      "BLACK PHANTOM IRON WARRIOR"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "651": {
+    "name": "Fume Sorcerer",
+    "aliases": [
+      "FUME SORCERER",
+      "BLACK PHANTOM FUME SORCERER"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "653": {
+    "name": "Ashen Warrior",
+    "aliases": [
+      "ASHEN WARRIOR (DUAL AXES)",
+      "BLACK PHANTOM ASHEN WARRIOR (DUAL AXES)",
+      "ASHEN WARRIOR (SWORD)",
+      "ASHEN WARRIOR (AXE AND SHIELD)",
+      "BLACK PHANTOM ASHEN WARRIOR (A&S)",
+      "ASHEN WARRIOR (BOW)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "654": {
+    "name": "Scorcher",
+    "aliases": [
+      "SCORCHER"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "656": {
+    "name": "Possessed Armor",
+    "aliases": [
+      "POSSESSED ARMOR",
+      "BLACK PHANTOM POSSESSED ARMOR"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "657": {
+    "name": "Cask Runner",
+    "aliases": [
+      "CASK RUNNER"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "659": {
+    "name": "Rampart Golem",
+    "aliases": [
+      "RAMPART GOLEM",
+      "BLACK PHANTOM RAMPART GOLEM"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "660": {
+    "name": "Ice Golem",
+    "aliases": [
+      "ICE GOLEM",
+      "BLACK PHANTOM ICE GOLEM"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "661": {
+    "name": "Ice Stallion",
+    "aliases": [
+      "ICE STALLION",
+      "BLACK PHANTOM ICE STALLION",
+      "Frozen Reindeer",
+      "Frigid Reindeer",
+      "Reindeer"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "662": {
+    "name": "Ice Rat",
+    "aliases": [
+      "ICE RAT",
+      "BLACK PHANTOM ICE RAT",
+      "Rampart Hedgehog",
+      "Ice Hedgehog",
+      "Porcupine"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "663": {
+    "name": "Spellsword",
+    "aliases": [
+      "ICED SPELLSWORD",
+      "BLACK PHANTOM ICED SPELLSWORD",
+      "SPELLSWORD"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "665": {
+    "name": "Sanctum Guardian",
+    "aliases": [
+      "SANCTUM GUARDIAN",
+      "SANCTUM GUARDIAN (CROSSBOWS)",
+      "Sanctum Knight"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "666": {
+    "name": "Sanctum Soldier",
+    "aliases": [
+      "SANCTUM SOLDIER (GREATHAMMER)",
+      "SANCTUM SOLDIER (LANCE)",
+      "SANCTUM SOLDIER (BOW)",
+      "SANCTUM SOLDIER (SWORD)",
+      "SANCTUM SOLDIER (POISON AURA HAMMER)",
+      "SANCTUM SOLDIER (POISON AURA LANCE)",
+      "SANCTUM SOLDIER (POISON AURA BOW)",
+      "SANCTUM SOLDIER (TORCH)",
+      "SANCTUM SOLDIER (POISON AURA TORCH)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "670": {
+    "name": "Sanctum Priestess",
+    "aliases": [
+      "SANCTUM PRIESTESS"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "671": {
+    "name": "Statue Lizard",
+    "aliases": [
+      "POISON STATUE LIZARD",
+      "PETRIFY STATUE LIZARD"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "672": {
+    "name": "Corrosive Insect",
+    "aliases": [
+      "CORROSIVE INSECT"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "674": {
+    "name": "Pagan Tree",
+    "aliases": [
+      "PAGAN TREE"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "677": {
+    "name": "Retainer",
+    "aliases": [
+      "RETAINER (DAGGER)",
+      "RETAINER (STAFF)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "683": {
+    "name": "Imperfect",
+    "aliases": [
+      "IMPERFECT"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "689": {
+    "name": "Charred Loyce Knight",
+    "aliases": [
+      "CHARRED LOYCE KNIGHT (SWORD)",
+      "CHARRED LOYCE KNIGHT (GREATAXE)",
+      "CHARRED LOYCE KNIGHT (GREATHAMMER)",
+      "CHARRED LOYCE KNIGHT (PYRO)"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  },
+  "880": {
+    "name": "Drakeblood Knight",
+    "aliases": [
+      "DRAKEBLOOD KNIGHT"
+    ],
+    "source": "catalog.json English variants; English wiki aliases where listed"
+  }
+}

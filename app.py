@@ -11,6 +11,7 @@ from tkinter import ttk
 from tkinter import messagebox
 from controller import Controller
 from cuteui import CuteLayout
+from i18n import text, live_text
 
 RESOURCES=Path(getattr(sys,'_MEIPASS',Path(__file__).parent))
 HOME=Path(os.environ.get('LOCALAPPDATA',str(Path.home())))/'DS2EnemySelector'
@@ -35,7 +36,7 @@ class App(CuteLayout):
 
     def refresh_button(self):
         s=self.controller.snapshot()
-        self.toggle.configure(text='적용 중지 · 복원 (F8)' if s['enabled'] else '선택한 적 제거 시작',state='normal' if s['enabled'] or (s['ready'] and self.offline.get() and s['selected']) else 'disabled')
+        self.toggle.configure(text=self.t('적용 중지 · 복원 (F8)' if s['enabled'] else '선택한 적 제거 시작'),state='normal' if s['enabled'] or (s['ready'] and self.offline.get() and s['selected']) else 'disabled')
 
     def toggle_apply(self):
         s=self.controller.snapshot()
@@ -50,15 +51,19 @@ class App(CuteLayout):
             self.controller.set_enabled(False)
         self.key_down=pressed
         s=self.controller.snapshot()
-        message=s['message']
-        if s['restoration_error']: message+=' / '+s['restoration_error']
+        self.render_state(s)
+        self.root.after(400,self.update)
+
+    def render_state(self,s):
+        message=self.t(s['message'])
+        if s['restoration_error']: message+=' / '+self.t(s['restoration_error'])
         self.status.set(message)
         self.chosen.set(str(len(s['selected'])))
-        self.live_counts.set(f"현재 지역 {s['loaded']}개체  ·  적용 중 {s['active']}개체")
-        self.summary.set(f"선택 {len(s['selected'])}종 · 현재 적 {s['loaded']}개체 · 적용 {s['active']}개체")
+        self.live_counts.set(live_text(s['loaded'],s['active'],self.language))
+        self.summary.set(f"{len(s['selected'])} selected · {s['loaded']} in this area · {s['active']} hidden" if self.language=='en' else f"선택 {len(s['selected'])}종 · 현재 적 {s['loaded']}개체 · 적용 {s['active']}개체")
         for group,row in self.rows.items():
-            row.set_count(s['counts'].get(group,0))
-        self.filter(); self.refresh_button(); self.root.after(400,self.update)
+            row.set_count(s['counts'].get(group,0),self.language)
+        self.filter(); self.refresh_button()
 
     def close(self):
         self.closing=True; self.controller.close(); self.root.destroy()
@@ -71,7 +76,11 @@ def main():
         # No worker is started, so this UI check never opens the game process.
         with tempfile.TemporaryDirectory() as temp:
             c=Controller(RESOURCES,temp); app=App(root,c); root.update()
-            args.smoke_test.write_text(json.dumps({'ui_created':True,'catalog_groups':len(c.catalog),'apply_disabled':str(app.toggle.cget('state'))=='disabled','worker_started':c.thread is not None},indent=2),encoding='utf-8')
+            app.change_language('English'); root.update()
+            english_ok=(app.rows['511'].name.cget('text')=='Imperious Knight' and app.toggle.cget('text')=='Start hiding selected enemies')
+            app.change_language('한국어'); root.update()
+            korean_ok=app.rows['511'].name.cget('text')==c.catalog['511']['name']
+            args.smoke_test.write_text(json.dumps({'ui_created':True,'catalog_groups':len(c.catalog),'apply_disabled':str(app.toggle.cget('state'))=='disabled','worker_started':c.thread is not None,'english_switch':english_ok,'korean_switch':korean_ok},indent=2),encoding='utf-8')
             app.close()
     else:
         kernel=ctypes.WinDLL('kernel32',use_last_error=True)
@@ -80,7 +89,11 @@ def main():
         kernel.CloseHandle.argtypes=[ctypes.c_void_p]
         mutex=kernel.CreateMutexW(None,False,'Local\\DS2EnemySelectorBeta')
         if not mutex or ctypes.get_last_error()==183:
-            messagebox.showinfo('이미 실행 중','이미 실행 중인 적 선택 도구를 사용하세요.',parent=root)
+            language='ko'
+            try:
+                language=json.loads((HOME/'settings.json').read_text('utf-8')).get('language','ko')
+            except (OSError,ValueError,AttributeError): pass
+            messagebox.showinfo(text('이미 실행 중',language),text('이미 실행 중인 적 선택 도구를 사용하세요.',language),parent=root)
             if mutex: kernel.CloseHandle(mutex)
             root.destroy(); return
         try:

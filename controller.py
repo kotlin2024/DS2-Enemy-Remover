@@ -14,7 +14,7 @@ class Controller:
         self.adapter=adapter
         self.catalog=load_catalog(resources)
         self.groups={p:k for k,v in self.catalog.items() for p in v['params']}
-        self.selected=set(); self.enabled=False; self.export_requested=False
+        self.selected=set(); self.language='ko'; self.enabled=False; self.export_requested=False
         self.memory=None; self.remover=None; self.last_context=None; self.context_since=0
         self.stop=threading.Event(); self.lock=threading.RLock()
         self.state={'message':'게임 연결을 기다리고 있습니다.','counts':{},'active':0,'loaded':0,'ready':False,'map':None,'restoration_error':None,'last_restore_skipped':0}
@@ -26,14 +26,23 @@ class Controller:
             if not isinstance(settings,dict) or not isinstance(settings.get('selected',[]),list):
                 return
             self.selected={str(k) for k in settings.get('selected',[]) if str(k) in self.catalog}
+            self.language=settings.get('language') if settings.get('language') in ('ko','en') else 'ko'
         except (OSError,ValueError,TypeError):
             pass
 
     def select(self,selected):
         with self.lock:
             self.selected=set(selected)&set(self.catalog)
-            data=json.dumps({'selected':sorted(self.selected)},ensure_ascii=False,indent=2)
-            temp=self.home/'settings.tmp'; temp.write_text(data,encoding='utf-8'); temp.replace(self.home/'settings.json')
+            self.save_settings()
+
+    def save_settings(self):
+        data=json.dumps({'selected':sorted(self.selected),'language':self.language},ensure_ascii=False,indent=2)
+        temp=self.home/'settings.tmp'; temp.write_text(data,encoding='utf-8'); temp.replace(self.home/'settings.json')
+
+    def set_language(self,language):
+        if language not in ('ko','en'): raise ValueError('Unsupported UI language')
+        with self.lock:
+            self.language=language; self.save_settings()
 
     def set_enabled(self,enabled):
         with self.lock:
@@ -41,7 +50,7 @@ class Controller:
 
     def snapshot(self):
         with self.lock:
-            return {**self.state,'selected':list(self.selected),'enabled':self.enabled}
+            return {**self.state,'selected':list(self.selected),'enabled':self.enabled,'language':self.language}
 
     def export(self):
         with self.lock:

@@ -2,11 +2,21 @@
 
 Developed by **HJP** (Nexus Mods username: **UNITYDEVELOPER**).
 
-Public source for the `DS2EnemySelector-Comfort.exe` Windows desktop utility for **Dark Souls II: Scholar of the First Sin**. This repository is provided for source inspection and building, including review of executable false positives. Publication is not a claim of Nexus approval or antivirus clearance.
+Public source for the `DS2EnemySelector-BilingualSoft.exe` Windows desktop utility for **Dark Souls II: Scholar of the First Sin**. This repository is provided for source inspection and building, including review of executable false positives. Publication is not a claim of Nexus approval or antivirus clearance.
+
+## Download / 다운로드
+
+[Download ZIP / ZIP 다운로드](https://github.com/kotlin2024/DS2-Enemy-Remover/releases/latest/download/DS2EnemySelector-BilingualSoft.zip) · [Download EXE / 실행 파일 다운로드](https://github.com/kotlin2024/DS2-Enemy-Remover/releases/latest/download/DS2EnemySelector-BilingualSoft.exe)
+
+The latest release contains one Windows application with Korean and English in the same program. Choose **한국어** or **English** using the rounded language buttons at the top. Your language is remembered; changing it preserves selections and active sessions. English enemy names come from existing English variant data and English reference pages; see [naming sources](ENGLISH_NAMES.md).
+
+상단의 둥근 **한국어 / English** 버튼으로 언어를 선택할 수 있습니다. 별도 영어 프로그램 없이 같은 프로그램에서 전환하며, 다음 실행에도 언어 설정을 기억합니다. 기존 도구에서 **F8로 중지하고 창을 닫은 뒤** 새 실행 파일을 사용해 주세요.
+
+Use offline only. Download the ZIP for the application plus usage guides, attribution and hashes, or the EXE alone for the application. Stop the old tool with **F8** and close it before running this version. [English usage guide](README-English.md) · [한국어 사용안내](사용안내.md).
 
 ## Features and scope
 
-- Select ordinary enemy families with illustrated Korean cards; 96 families and 409 allow-listed parameter IDs.
+- Select ordinary enemy families with illustrated Korean/English cards; 96 families and 409 allow-listed parameter IDs.
 - Search, current-area filter, 18-family phobia filter and 14-family community nuisance filter. Category filters change visibility only, preserve selections, and combine as a union.
 - Hide selected enemies, disable their collision, pause their AI update, and exclude their controllers from player lock-on candidates. This is reversible runtime control, not deleting enemies from installed game files.
 - During travel or death/loading, clear old targets and wait for the new game context to remain stable for two seconds before reapplying. Manual stop/F8 cancels automatic resumption. Game exit, access errors and restoration errors disable application.
@@ -29,16 +39,16 @@ For a standalone EXE and ordinary ZIP package:
 .\build.ps1
 ```
 
-`build.ps1` runs the 34 backend/CPU/controller tests, builds with PyInstaller onefile without UPX, and includes usage documentation, attribution, third-party notices and a SHA-256 file in the ZIP. It uses the local virtual environment; it does not depend on sibling private workspace folders. Optional tests are:
+`build.ps1` runs the 38 backend/CPU/controller tests, builds with PyInstaller onefile without UPX, and includes usage documentation, attribution, third-party notices and a SHA-256 file in the ZIP. It uses the local virtual environment; it does not depend on sibling private workspace folders. Optional tests are:
 
 ```powershell
-.\.venv\Scripts\python.exe -m unittest test_removal test_ai_payload test_lockon_payload test_controller -v
+.\.venv\Scripts\python.exe -m unittest test_removal test_ai_payload test_lockon_payload test_controller test_i18n -v
 .\.venv\Scripts\python.exe verify_cute_ui.py
 ```
 
 The unit tests use fake memory or the Unicorn x64 emulator and do not connect to the game. The UI verification also does not start a game-memory worker.
 
-Rebuilding can produce a different EXE hash due to packaging/toolchain differences. `SHA256-Comfort.txt` identifies the developer's existing distributed EXE, not a promise of bit-for-bit reproducibility. The EXE and ZIP are not stored in this source repository.
+Rebuilding can produce a different EXE hash due to packaging/toolchain differences. `SHA256-Bilingual.txt` identifies the developer's existing distributed EXE, not a promise of bit-for-bit reproducibility. The EXE and ZIP are available as GitHub Release assets; binaries are kept out of the source tree.
 
 ## Security review: actual behavior
 
@@ -66,11 +76,12 @@ Key files:
 | `aihook.py`, `lockon.py` | Selective runtime instruction patches and bounded target tables |
 | `controller.py` | Worker, loading/resume delay, stop/error handling |
 | `app.py`, `softui.py`, `art_catalog.py` | UI, F8/offline gates and optional filters |
+| `i18n.py`, `english_names.json` | Bilingual presentation and source-based English enemy names |
 | `catalog.json` | Shipped allow-list; no external cheat-table file is needed to build |
 
 ## Validation and limitations
 
-34 backend, trampoline-emulation and controller lifecycle tests pass. UI checks cover search, category union, current-area filtering, preservation of selections and minimum window size. Limited in-game user tests confirmed Heide/Old Knights disappear, become passable and do not reappear when attacked; a later user test confirmed hidden enemies cannot receive a new lock-on. This is not a test of every family, already-active lock-on release, all DLC areas or prolonged stability. Travel automatic resumption is covered by lifecycle tests, not a complete in-game travel survey.
+38 backend, trampoline-emulation and controller lifecycle tests pass. UI checks cover search, category union, current-area filtering, preservation of selections and minimum window size, language buttons, bilingual search and preservation of active sessions across language changes. Limited in-game user tests confirmed Heide/Old Knights disappear, become passable and do not reappear when attacked; a later user test confirmed hidden enemies cannot receive a new lock-on. This is not a test of every family, already-active lock-on release, all DLC areas or prolonged stability. Travel automatic resumption is covered by lifecycle tests, not a complete in-game travel survey.
 
 An early coordinate-moving experiment failed restoration verification and was abandoned. The current shipped source does not implement that approach. No Nexus/VirusTotal clearance is asserted.
 
